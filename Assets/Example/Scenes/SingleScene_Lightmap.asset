@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fb3dc4c2225c8e448693da935ec23f6, type: 3}
+  m_Name: SingleScene_Lightmap
+  m_EditorClassIdentifier: 
+  baseSceneAsset: {fileID: 0}
+  lightmapScenes:
+  - id: c2c14f953363447fb89a656e381da572
+    group: light
+    sceneName: SingleScene
+    renderers:
+    - renderer: {fileID: 0}
+      path: static/Plane
+      lightmapIndex: 0
+      lightmapScaleOffset: {x: 0.9765625, y: 0.9765625, z: 0, w: 0}
+    - renderer: {fileID: 0}
+      path: static/Cube
+      lightmapIndex: 1
+      lightmapScaleOffset: {x: 0.5942397, y: 0.5942397, z: -0.0024100975, w: 0.43459347}
+    - renderer: {fileID: 0}
+      path: static/Sphere
+      lightmapIndex: 1
+      lightmapScaleOffset: {x: 0.42382798, y: 0.42382798, z: 0.55078125, w: 0}
+    - renderer: {fileID: 0}
+      path: static/Capsule
+      lightmapIndex: 1
+      lightmapScaleOffset: {x: 0.5472885, y: 0.5472885, z: 0, w: 0}
+    lightmaps:
+    - {fileID: 2800000, guid: 80bed1d2b0b343b468032564a1d83a07, type: 3}
+    - {fileID: 2800000, guid: e8ff7733ef7e65349a0a96b423ea5edc, type: 3}
+    lightmapsDir:
+    - {fileID: 2800000, guid: 695015e3bf8a69c4a8fc59026e9b6c95, type: 3}
+    - {fileID: 2800000, guid: 438782016c6ea224bae99b9125aeb8fa, type: 3}
+    shadowMasks:
+    - {fileID: 2800000, guid: 5fbaf1b126a18884aa6740914a5cc7fb, type: 3}
+    - {fileID: 2800000, guid: 79fe825c0b264e94b94270e5cd342b4a, type: 3}
+    lightmapsMode: 1
+    lightProbes: []
+    hasRealtimeLights: 1
+    copy: 0
+    includeRenderer: 
+    excludeRenderer: 
+    sceneAsset: {fileID: 102900000, guid: d2fc1dafd50b6d34bb241038718e33e7, type: 3}
+  - id: 71a42fed7e5a403a812c741e45db3a61
+    group: night
+    sceneName: SingleScene
+    renderers:
+    - renderer: {fileID: 0}
+      path: static/Plane
+      lightmapIndex: 0
+      lightmapScaleOffset: {x: 0.9765625, y: 0.9765625, z: 0, w: 0}
+    - renderer: {fileID: 0}
+      path: static/Cube
+      lightmapIndex: 1
+      lightmapScaleOffset: {x: 0.5942397, y: 0.5942397, z: -0.0024100975, w: 0.43459347}
+    - renderer: {fileID: 0}
+      path: static/Sphere
+      lightmapIndex: 1
+      lightmapScaleOffset: {x: 0.42382798, y: 0.42382798, z: 0.55078125, w: 0}
+    - renderer: {fileID: 0}
+      path: static/Capsule
+      lightmapIndex: 1
+      lightmapScaleOffset: {x: 0.5472885, y: 0.5472885, z: 0, w: 0}
+    lightmaps:
+    - {fileID: 2800000, guid: f755a0cee88f6bd4089b3ea4caf5c499, type: 3}
+    - {fileID: 2800000, guid: 47fbfd20cbdb6d0458851b7f206a5693, type: 3}
+    lightmapsDir:
+    - {fileID: 2800000, guid: 485db43b5c077cd43b10940b136d003d, type: 3}
+    - {fileID: 2800000, guid: 306ebb9504f4e9c4fbdc6afb22505b50, type: 3}
+    shadowMasks:
+    - {fileID: 2800000, guid: 3263736aa426f194ab5a9c7d6b3194be, type: 3}
+    - {fileID: 2800000, guid: 5cf267bbe19904441824c3b40703ae2c, type: 3}
+    lightmapsMode: 1
+    lightProbes: []
+    hasRealtimeLights: 1
+    copy: 0
+    includeRenderer: 
+    excludeRenderer: 
+    sceneAsset: {fileID: 102900000, guid: d2fc1dafd50b6d34bb241038718e33e7, type: 3}
+  verbose: 0

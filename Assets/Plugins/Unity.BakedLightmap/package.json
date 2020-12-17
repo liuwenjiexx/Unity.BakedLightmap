@@ -1,0 +1,15 @@
+{
+  "name": "unity.bakedlightmap",
+  "displayName": "Baked Lightmap",
+  "version": "0.0.1",
+  "unity": "2019.1",
+  "description": "Baked Lightmap",
+  "keywords": [
+    "bake",
+    "lightmap"
+  ],
+  "category": "Unity",
+  "dependencies": {
+    "unity.guiextensions": "0.0.1"
+  }
+}

@@ -1,0 +1,17 @@
+/Library
+/obj
+/temp
+/*.csproj
+/*.sln
+/.vs
+/*.suo
+/*.userprefs
+/*.unityproj
+/ProjectSettings/*
+/ProjectSettings/ProjectVersion.txt
+/UnityPlayerStub
+/Logs/
+/Assets/Example/Scenes/*/
+/Packages/packages-lock.json
+/UserSettings/*
+.vsconfig

@@ -1,0 +1,18 @@
+{
+    "name": "UnityEditor.BakedLightmap",
+    "references": [
+        "GUID:d1c754cb5bafd304bbed7cd53d59297a",
+        "GUID:e52d4e5afa790e6448eb99cfe5592759"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
