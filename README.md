@@ -10,10 +10,11 @@ Baking scene lighting map
 
 
 
-## Packages/manifest.json
+## manifest.json
 
 ```
-  "unity.guiextensions": "https://github.com/liuwenjiexx/Unity.GuiExtensions.git"
+"unity.guiextensions": "https://github.com/liuwenjiexx/Unity.GuiExtensions.git",
+"unity.bakedlightmap": "https://github.com/liuwenjiexx/Unity.BakedLightmap.git?path=/Assets/Plugins/Unity.BakedLightmap",
 ```
 
 
